@@ -1,0 +1,65 @@
+@import "reset.css";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div.scrollmenu {
+    background-color: rgba(250,5,5,0.7);
+    background-image: linear-gradient(to right,rgba(176, 224, 255, 1),rgba(250,5,5,0.5),rgba(250,5,5,0.5),rgba(176, 224, 255, 1));
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    left: 300px;
+}
+.sn {
+  position: absolute;
+  right:100px;
+  top: 100px;
+}
+.btn {
+  margin: 5px;
+  background-color: rgba(255,255,255,0);
+  color: rgba(0,0,0,1);
+  font-weight: 900;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: rgba(176, 224, 255, 1);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-size: 54px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+}
+header#pageheader {
+  line-height: 96px;
+  padding-left: 24px;
+}
+/*1d8bf2893f9b708a4dbd6b511a8a7129*/
+.white {
+  color: white;
+}
+
+#name {
+  text-decoration-color: #28669F; 
+ /* background-color: grey;*/
+  font-size: 2em;
+  border-radius: 4px;
+  text-decoration: bold;
+  padding: 5px;
+}
