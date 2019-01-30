@@ -1,8 +1,19 @@
 import React from 'react';
 
+const seasondisplay = {
+	winter: {
+		message: "Time to go ice skating!",
+		iconPic: 'snowflake'
+	},
+	summer: {
+		message: "Time to head to the beach!",
+		iconPic: 'sun'
+	} 
+}
+
 const SeasonDisplay = (props) => {
 	return (
-		<div>{props.message}</div>
+		<div>Latitude: {props.lat}</div>
 	);
 }
 
