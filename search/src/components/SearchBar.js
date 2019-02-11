@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 class SearchBar extends React.Component {
 	state = { term : '' }
 
 	onSubmitChange = (e) => {
 		e.preventDefault();
+		this.props.onSubmit(this.state.term)
 	}
 
 	render() {
